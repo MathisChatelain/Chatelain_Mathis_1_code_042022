@@ -140,11 +140,9 @@ div {
     border-radius: 25px;
     margin: 5px 0px 0px 26px;
     align-items: center;
-}
-
-#filters-div > button > h3 {
-    padding: 20px 14px;
+    text-align: center;
     font-size: 18px;
+    font-weight: 700;
 }
 
 #filters-div > button > i {
