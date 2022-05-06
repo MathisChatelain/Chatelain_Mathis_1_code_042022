@@ -118,11 +118,9 @@ div {
     height: 100%;
     width: 134px;
     border-radius: 0px 19px 19px 0px;
-}
-
-#input-div > button > h3 {
-    color: white;
     font-size: 18px;
+    color: white;
+    font-weight: 700;
 }
 
 /* Filters props */
