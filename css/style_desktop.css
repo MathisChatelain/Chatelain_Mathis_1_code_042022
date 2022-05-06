@@ -1,6 +1,16 @@
 @media (min-width: 992px) {
 
 
+.comparators {
+    /*Need to use 1440px / 75% with chrome dev tools*/
+    position: absolute;
+    width:1440px;
+    top: 0px;
+    left: 0px;
+    object-fit: fill;
+    opacity: 0.2;
+}
+
 /* Global aspects for desktop*/
 header {
     margin : 0px var(--global-margin);
