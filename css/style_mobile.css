@@ -12,8 +12,7 @@
 
     /* Global aspects for desktop*/
     header {
-        height: 500px;
-        margin: 0px 20px;
+        height: 700px;
     }
 
     main {
@@ -31,40 +30,87 @@
     #logo-booki {
         object-fit: fill;
         width: 100px;
+        margin: 20px calc(50% - 50px);
     }
 
     .header-navigation-link {
-        top: 200px;
+        top: 97px;
+        right: 0px;
+        border-top: none;
+        border-bottom: 3px solid var(--booki-grey);
+        padding: 0px;
+        padding-bottom: 12px;
+        width: 50%;
+        text-align: center;
+    }
+
+    #header-navigation-link-1 {
+        left: 0px;
+        border-top: none;
+        border-bottom: 3px solid var(--booki-blue);
+        padding: 0px;
+        padding-bottom: 12px;
+        width: 50%;
     }
 
     header > h2 {
-        margin-top: 0px;
-        margin-left: 0px;
+        margin-top: 73px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 14px;
     }
 
     header > p {
-        margin-top: 0px;
-        margin-left: 0px;
+        margin-left: 20px;
     }
 
     #input-div {
-        margin: 0px;
-        width: 200px;
+        margin-top: 33px;
+        margin-left: 5%;
         flex-wrap: nowrap;
+        width: 90%;
+        align-content: center;
+    }
+
+    #input-div > i {
+        border-radius: 14px 0px 0px 14px;
+    }
+
+    #input-div > input {
+        width: 100px;
     }
 
     #input-div > button {
         width: 50px;
-        border-radius: 25%;
+        border-radius: 14px;
+        font-size: 0px;
+    }
+
+    #input-magnifying-glass {
+        font-size: 16px;
     }
 
     #filters-div {
-        margin: 25px 11px;
+        margin: 15px 20px;
         justify-content: flex-start;
+    }
+
+    #filters-div > button {
+        font-size: 17px;
+        margin: 15px 25px 0px 0px;
+    }
+
+    #filters-div > h3 {
+        padding-right: 70%;
     }
 
     #info-div {
         margin: 36px 9px;
+        flex-wrap: nowrap;
+    }
+
+    #info-div > text {
+        padding: 5px;
     }
 
     /* Accomodation elements */
@@ -90,9 +136,10 @@
     }
 
     .accomodation-article {
-        width: 90%;
+        width: 200px;
         height: 200px;
         padding: 5px;
+        margin: 20px;
     }
 
     .accomodation-article > img {
@@ -136,8 +183,8 @@
         height: 622px;
         background-color: var(--booki-grey);
         border-radius: 0px;
-        position: initial;
-        top: 500px;
+        position: absolute;
+        top: 700px;
     }
 
     #popular-section > h2 {

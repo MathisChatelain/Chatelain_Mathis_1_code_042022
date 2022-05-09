@@ -58,6 +58,10 @@ header > p {
     margin: 20px 5px;
 }
 
+#input-magnifying-glass {
+    display: none;
+}
+
 #filters-div {
     margin: 25px 11px;
     justify-content: flex-start;
