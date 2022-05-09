@@ -120,7 +120,7 @@
         height: 622px;
         background-color: white;
         position: absolute;
-        top: 1200px;
+        top: 1320px;
     }
 
     #accomodation-section > h2 {
@@ -136,7 +136,7 @@
     }
 
     .accomodation-article {
-        width: 200px;
+        width: 90%;
         height: 200px;
         padding: 5px;
         margin: 20px;
@@ -252,12 +252,15 @@
 
     #activities-section {
         position: absolute;
-        top: 2700px;
+        width: 100%;
+        top: 2930px;
     }
 
     .activities-article {
         border: none;
-        height: 300px;
+        width: calc(100%-40px);
+        margin: 20px;
+        height: 200px;
     }
 
     .activities-article > img {
