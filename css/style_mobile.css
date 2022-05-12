@@ -12,7 +12,7 @@
 
     /* Global aspects for desktop*/
     header {
-        height: 700px;
+        height: 670px;
     }
 
     main {
@@ -120,12 +120,11 @@
         height: 622px;
         background-color: white;
         position: absolute;
-        top: 1320px;
+        top: 1290px
     }
 
     #accomodation-section > h2 {
-        margin: 40px;
-        margin-bottom: 8px;
+        margin: 40px 0px 8px 20px;
     }
 
     #accomodation-section > div {
@@ -184,7 +183,7 @@
         background-color: var(--booki-grey);
         border-radius: 0px;
         position: absolute;
-        top: 700px;
+        top: 670px;
     }
 
     #popular-section > h2 {
@@ -253,7 +252,11 @@
     #activities-section {
         position: absolute;
         width: 100%;
-        top: 2930px;
+        top: 2900px;
+    }
+
+    #activities-section > h2 {
+        margin-left: 20px;
     }
 
     .activities-article {
@@ -283,17 +286,18 @@
 
     /* Footer elements */
     footer {
-        height: 300px;
         display: flex;
-        align-items: center;
+        width: 100vw;
         background-color: var(--booki-grey);
         position: absolute;
-        top: 4700px;
+        top: 4300px;
+        flex-direction: column;
+        padding-top: 20px;
     }
 
     footer > div {
-        width: 33%;
         height: 100%;
+        margin: 20px;
         flex-direction: column;
         align-content: flex-start;
         justify-content: flex-start;

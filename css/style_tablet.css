@@ -1,17 +1,22 @@
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 767px) and (max-width: 991px) {
 
-    /* Global aspects for desktop*/
+    
+    .comparators {
+        display: none;
+    }
+
+    /* Global aspects*/
     header {
-        margin : 0px var(--global-margin);
-        height: 427px;
+        margin: 0px var(--global-margin);
+        height: 500px;
     }
 
     main {
-        height: 1235px;
-        margin : 0px var(--global-margin);
+        height: 1870px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        align-content: flex-start;
     }
 
     footer {
@@ -21,7 +26,7 @@
     /* Textual elements */
 
     h2 {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     /* Header elements */
@@ -47,6 +52,10 @@
         margin: 20px 5px;
     }
 
+    #input-magnifying-glass {
+        display: none;
+    }
+
     #filters-div {
         margin: 25px 11px;
         justify-content: flex-start;
@@ -59,8 +68,9 @@
     /* Accomodation elements */
     #accomodation-section {
         background-color: var(--booki-grey);
-        width: calc(calc(67% - var(--global-margin-half)) + 5px);
-        height: 622px;
+        width: calc(67% - 10px);
+        height: 800px;
+        border-radius: 0px 20px 20px 0px;
     }
 
     #accomodation-section > h2 {
@@ -69,11 +79,11 @@
     }
 
     #accomodation-section > div {
-        height: 460px;
+        height: 660px;
     }
 
     .accomodation-article {
-        width: 28%;
+        width: 45%;
         height: 200px;
         padding: 5px;
     }
@@ -116,14 +126,13 @@
 
     /* Popular elements */
     #popular-section {
-        height: 622px;
-        width: calc(33% - var(--global-margin-half));
-        background-color: var(--booki-grey);
+        height: 800px;
+        width: calc(33% - 10px);
     }
 
     #popular-section > h2 {
         margin-top: 41px;
-        margin-left: 34px;
+        margin-left: 20px;
         margin-bottom: 5px;
     }
 
@@ -136,14 +145,16 @@
 
     #popular-div {
         flex-direction: column;
-        height: 490px;
+        height: 660px;
         justify-content: space-between;
     }
 
     .popular-article {
-        width: 85%;
+        width: 100%;
         height: 28%;
         padding: 5px;
+        border-right: none;
+        border-radius: 20px 0px 0px 20px;
     }
 
     .popular-article > img {
@@ -186,11 +197,18 @@
     #activities-section {
         height: 500px;
         width: 100%;
+        padding: 0px 50px;
         display: grid;
         grid-template: 
-                "a a a a" 50px
-                "b c d e" 450px / 1fr 1fr 1fr 1fr;
+                "a a" 70px
+                "b c" 450px
+                "x x" 50px
+                "d e" 450px / 1fr 1fr;
         column-gap: var(--global-margin);
+    }
+
+    #activities-section > h2 {
+        margin: 20px
     }
 
     .activities-article {
@@ -269,4 +287,5 @@
     footer > div > a {
         margin-bottom: 12px;
     }
+
 }

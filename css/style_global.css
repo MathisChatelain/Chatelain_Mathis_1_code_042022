@@ -141,6 +141,7 @@ div {
     text-align: center;
     font-size: 18px;
     font-weight: 700;
+    padding-right: 10px;
 }
 
 #filters-div > button > i {
@@ -152,9 +153,11 @@ div {
     border: solid 2px var(--booki-blue-light);
     font-size: 19px;
     padding-top: 12px;
+    margin-right: 10px;
 }
 
 #filters-div > button:hover {
+    transition-duration: 0.4s;
     background-color: var(--booki-blue);
     color: white;
     border-color: var(--booki-blue-light);
