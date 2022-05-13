@@ -25,6 +25,10 @@
         font-size: 22px;
     }
 
+    h4 {
+        font-size: 15px;
+    }
+
     /* Header elements */
 
     #logo-booki {
@@ -141,9 +145,14 @@
         justify-content: space-between;
     }
 
-    .popular-article {
+    #popular-div > a {
         width: 85%;
         height: 28%;
+    }
+
+    .popular-article {
+        width: 100%;
+        height: 100%;
         padding: 5px;
     }
 
@@ -204,11 +213,15 @@
         align-items: center;
     }
 
-    .accomodation-article {
+    #accomodation-section > div > a {
         width: 90%;
+        margin: 20px;
+    }
+
+    .accomodation-article {
+        width: 100%;
         height: 200px;
         padding: 5px;
-        margin: 20px;
     }
 
     .accomodation-article > img {
@@ -257,6 +270,11 @@
 
     #activities-section > h2 {
         margin-left: 20px;
+    }
+
+    #activities-section > a {
+        width: 100%;
+       
     }
 
     .activities-article {
