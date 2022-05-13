@@ -13,7 +13,7 @@
 }
 
 img {
-    object-fit: none;
+    object-fit: cover;
 }
 
 h1 {
