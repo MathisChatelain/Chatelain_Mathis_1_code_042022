@@ -261,7 +261,7 @@
 
     .activities-article {
         border: none;
-        width: calc(100%-40px);
+        width: calc(100% - 40px);
         margin: 20px;
         height: 200px;
     }
